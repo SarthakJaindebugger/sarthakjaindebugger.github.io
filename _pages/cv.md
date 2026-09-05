@@ -2,134 +2,58 @@
 layout: cv
 permalink: /cv/
 title: CV
-description: 
-nav: false
+description: AI Engineer · LLM systems · Multimodal ML
+nav: true
 nav_order: 2
 ---
 
-## **Research Experience**
+## Education
 
-- **Sony**  
-  *July 2024 (Ongoing)*  
-  Research Internship | Advisor: Dr. Kumud Tripathi  
-  Addressing challenges in Multilingual Voice Activity Detection (VAD) and speaker overlap detection using state-of-the-art (SOTA) foundation models, speech-to-speech translation models, Pyannote architecture, and tools like Audacity.
+- **University of Geneva, Switzerland** — M.Sc. Computer Science and Mathematics, 2026–2028
+- **Guru Gobind Singh Indraprastha University, New Delhi** — B.Tech. Computer Science Engineering, 2021–2025 · **CGPA: 8.69/10**
 
-- **University of South Carolina (AIISC), USA**  
-  *Mar 2024 (Ongoing)*  
-  Undergraduate Researcher | Advisor: Dr. Amitava Das  
-  Addressing problems in the field of Hallucination mitigation in text-based LLMs.
+## AI Engineering & Research Experience
 
-- **Indraprastha Institute of Information Technology, Delhi**  
-  *Nov 2023 - Oct 2024*  
-  Undergraduate Researcher | Advisor: Dr. Arun Balaji Buduru  
-  Working on multilingual speech emotion recognition (SER) and addressing issues like catastrophic forgetting, zero-shot evaluations, and model weight averaging (stochastic, model soups, exponential). Implemented signal processing, feature extraction, and resampling of audios to 16kHz. Technologies used include DNN embedding systems (X-Vectors), ECAPA TDNN, MFCC, LFCC, pre-trained transformers like Wav2Vec2, and Neural Networks. Also involved in backend development using Flask and frontend using React.
+- **EPFL, Switzerland** — *Europe AI Summer Research Program* · Aug 2026–Sep 2026
+  Worked across NLP, privacy, and AI/ML systems using AWS SageMaker and Bedrock. Built agentic applications with APIs, WebSockets, Kiro, and Model Context Protocol (MCP) integrations.
 
-- **Indian Institute of Technology Ropar, Punjab**  
-  *Sep 2023 - Nov 2023*  
-  Research Assistant | Advisor: Dr. Suman Kumar  
-  Worked on a BLE-based Power-Efficient Cow Health Monitoring System using accelerometer sensors (LIS3DH). Utilized IoT, Embedded Systems, MATLAB, and Python for hardware/software integration and graphical analysis. Investigated data packet transmission, used a custom PCB for nodes, incorporated GSM & Bluetooth modules, Zephyr RTOS, MQTT, AWS Lambda, and developed a frontend using Flutter.
+- **Aalto University, Finland** — *Summer Research Intern, AScI International Summer Research Programme* · Jun 2026–Sep 2026
+  Selected as one of ~65 researchers from 6,500+ global applicants. Engineered an AI-powered public-service application for the City of Espoo's immigration department: a multilingual, multi-turn RAG system with LLMs, embeddings, Qdrant, hybrid semantic/BM25 retrieval, and structured conversational memory. Delivered a privacy-by-design Dockerized MVP with Python FastAPI/Flask, REST APIs, WebSockets, SQL, Vue.js, and TypeScript.
 
-## **Internships (Technical)**
+- **FriskaAi, USA (Remote)** — *Research Intern* · Sep 2025–Feb 2026
+  Built multimodal neuro-signal processing pipelines for early Autism Spectrum Disorder screening from video, audio, and behavioral data. Fine-tuned and evaluated Qwen3-4B-Thinking, Llama Maverick/Scout, LLaMA 3, Gemini 2.5 Pro, and Gemma-3n-E4B-it; proposed a fine-tuned model achieving **0.843 accuracy** and **0.891 F1** with reproducible benchmarks and deployment documentation.
 
-- **Indian Institute of Technology, Ropar (iHub-AWaDH)**  
-  *June 2023 - Mar 2024*  
-  Software Development Engineering Internship  
-  Developed a Cow Health Monitoring System for Mooofarm and a Weather Application for Agvisi using machine learning (Random Forest), AWS, Flutter, React, and Android Studio.
+- **International Institute of Information Technology Hyderabad, India** — *Research Intern* · Jul 2025–Sep 2025
+  Researched table structure recognition and generation with latent diffusion models across financial reports, nutrition labels, and structured documents. Designed 2D masked-table augmentations, optimized training parameters and FiD score, and trained efficiently on HPC clusters.
 
-- **The Hello World, Bangalore**  
-  *June 2023 - Aug 2023*  
-  Software Development Internship  
-  Contributed to full-stack development using ReactJS (frontend), Node.js (backend), and MySQL (database). Implemented APIs, CI/CD pipelines, and managed project workflows using JIRA and GitHub.
+- **Ernst & Young (EY), India** — *Summer Intern* · Mar 2025–Jun 2025
+  Applied NLP, data mining, LLM fine-tuning, and RAG to parliamentary corpora using FAISS, LangChain, and Hugging Face. Built **SansadGPT**, a cross-platform natural-language assistant that reduced manual search time over heavyweight PDFs by **85%**.
 
-- **Saint Louis University, USA**  
-  *May 2023 - June 2023*  
-  Data Visualization Internship  
-  Analyzed large datasets, creating visual representations using bar graphs, pie charts, and histograms.
+- **Sony, India** — *Research Intern* · Jul 2024–Dec 2024
+  Advanced multilingual voice activity detection and speech-to-speech translation with HuBERT, WavLM, Wav2Vec, x-vectors, and Pyannote. Performed fine-tuning, zero-shot evaluation, transfer learning, and large-scale training/inference via HPC over SSH.
 
-- **Saint Louis University, USA**  
-  *May 2023 - June 2023*  
-  Project Management Internship  
-  Led a team in project management, allocating tasks, tracking progress, and delivering presentations.
+- **University of South Carolina AIISC, USA (Remote)** — *Research Intern* · Mar 2024–Sep 2024
+  Led development of **ViBe**, a 3,500+ video benchmark for visual hallucinations in text-to-video diffusion models. Fine-tuned VideoMAE and TimeSformer and contributed mitigation strategies; the work was published at ACL 2025.
 
-## **Community Service & Social Work**
+- **IIIT Delhi, India** — *Research Associate* · Nov 2023–Nov 2024
+  Researched multilingual ASR, speech emotion recognition, audio deepfake detection, and multimodal classification. Achieved 99.14% accuracy in violence detection and proposed the SeQuiFi continual-learning method for catastrophic-forgetting mitigation, with end-to-end MLOps and Flask–React deployment.
 
-- **She Can Foundation**  
-  *Jan 2024 - Feb 2024*  
-  Fundraising internship
+## Technical Toolkit
 
-- **NbliK**  
-  *Sept 2022 - Dec 2022*  
-  Community Manager Internship
+- **Generative AI:** RAG, AI agents, agentic workflows, MCP, LLM evaluation, prompting, OpenAI, Gemini, Claude, LangChain, Ollama
+- **Retrieval:** Qdrant, FAISS, Chroma, embeddings, semantic search, BM25, hybrid retrieval, knowledge bases, conversational memory
+- **ML & multimodal:** PyTorch, TensorFlow, Hugging Face Transformers, LoRA/PEFT, speech foundation models, computer vision, benchmarking
+- **Product engineering:** Python, FastAPI, Flask, REST APIs, WebSockets, SQL, PostgreSQL, React, Vue.js, TypeScript, JavaScript
+- **Cloud & infrastructure:** AWS, SageMaker, Bedrock, Docker, CI/CD, Git, Linux, HPC/SLURM
 
-- **Hamari Pahchan NGO (HPNGO), New Delhi**  
-  *Nov 2022 - Dec 2022*  
-  Digital Marketing Intern
+## Selected Publications
 
-## **Projects**
+- **ViBe: A Text-to-Video Benchmark for Evaluating Hallucinations in Large Multimodal Models.** ACL (TrustNLP), 2025.
+- **Can AI See What We Can't? Leveraging Deep Learning and Multi-Temporal Satellite Data to Revolutionize Crop Type Mapping and Yield Prediction.** ICASSP, 2025.
+- **SNIFR: Boosting Fine-Grained Child Harmful Content Detection Through Audio-Visual Alignment with Cascaded Cross-Transformer.** Interspeech, 2025.
+- **The Reasonable Effectiveness of Speaker Embeddings for Violence Detection.** Interspeech, 2024.
+- **ComFeAT: Combination of Neural and Spectral Features for Improved Depression Detection.** Interspeech, 2024.
+- **PERSONA: An Application for Emotion Recognition, Gender Recognition and Age Estimation.** Interspeech, 2024.
+- **Bluetooth Low Energy-Based Novel Power Efficient Buffalo Calving Detection Based Solution.** IEEE Networking Letters.
 
-- **Cow Health Monitoring System**  
-  *June 2023 - Nov 2023*  
-  Developed a Real-Time Cow Activity Monitoring System under Dr. Suman Kumar (IIT Ropar), using ML, AWS, and Flutter. Integrated BLE accelerometers, GSM, and Bluetooth modules.
-
-- **Illegal Car Tracking System using ML**  
-  *May 2023 - July 2023*  
-  Implemented real-time Deep Learning for license plate recognition, managing traffic in dense urban areas using Twilio client services for alerts.
-
-- **Internet Security Analysis using ML**  
-  *May 2023*  
-  Applied machine learning for network traffic analysis, identifying potential security threats.
-
-- **Complaint Reporting System**  
-  *Nov 2022 - Feb 2023*  
-  Developed a Python/MySQL-based real-time system for crime and social issue reporting.
-
-- **Medical Store Stocks Manager**  
-  *June 2022 - Aug 2022*  
-  Developed a Python-based inventory management system with a user-friendly GUI using TKinter and MySQL.
-
-## **Technical Skills**
-
-- **Programming Languages:** C/C++, Python, Java, Dart, Matlab  
-- **Web Technologies:** HTML, CSS, Bootstrap, NodeJS, React, Flutter, WordPress  
-- **Databases and Cloud:** MySQL, AWS  
-- **Machine Learning and Deep Learning:** OpenCV, TensorFlow, PyTorch, NLP, OCR  
-- **Version Control and Collaboration:** GitHub, Git  
-- **Hardware and Microcontrollers:** Arduino, Raspberry Pi  
-
-## **Education**
-
-- **Guru Gobind Singh Indraprastha University, New Delhi, India**  
-  *2021-2025*  
-  Bachelor of Technology in Computer Science Engineering  
-  CGPA: 8.64/10
-
-- **DL DAV Model School, Shalimar Bagh, New Delhi, India**  
-  *2019-2021*  
-  Senior Secondary (Class XII)  
-  Percentage: 91.1/100
-
-- **Delhi Public School, Sonepat, Haryana, India**  
-  *2007-2019*  
-  Secondary (Class X)  
-  Percentage: 94/100
-
-## **Key Courses Taken**
-
-- **Core CS:** Computer Architecture & Logic Design, Compiler Design, Operating Systems, DBMS, Software Engineering, Computer Networks, OOP  
-- **Mathematics:** Applied Mathematics I & II, Discrete Mathematics, Computational Methods, Probability & Statistics I & II  
-- **Programming Languages:** C & C++, Python, Java, Matlab, HTML/CSS  
-
-## **Additional Courses Taken**
-
-- **Duke University:** DevOps, DataOps, MLOps  
-- **University of Colorado Boulder:** Researcher Management and Leadership Training  
-- **University of California Davis:** Big Data, Artificial Intelligence, and Ethics  
-- **University of Michigan:** Applied Machine Learning in Python
-
-## **Activities, Awards, and Participations**
-
-- **CodeChef Competitive Programming:** Max 3 stars (Highest rating 1543)  
-- **IEEE WebDev Hackathon:** Among top 8 teams to reach the final round  
-- **IRC Robotics Competition:** 2nd Rank Holder at district level  
-- **Google AI— Explore ML:** Intermediate track  
-- **Inter DPS Lawn Tennis Competition:** 1st Rank Holder
+For the complete publication record and PDF version, see the [publications](/publications/) page and [CV PDF](/assets/pdf/CV_Sarthak_Jain.pdf).
