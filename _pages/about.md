@@ -2,61 +2,39 @@
 layout: about
 title: About
 permalink: /
-
-subtitle: 
+subtitle: AI Engineer · Researcher · Builder of production-ready intelligent systems
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false
   more_info: >
-     <p> </p>
-     <p> </p>
-     <p> </p>
+    <p>Geneva, Switzerland</p>
+    <p>Open to research &amp; AI engineering collaborations</p>
 
-news: false
+news: true
 selected_papers: false
 social: true
-latest_posts:
-  - date: "May 11, 2024"
-    link: "https://www.linkedin.com/posts/creatersarthakjain_ai-cybersecurity-innovation-activity-7197480519066951680-9lph?utm_source=share&utm_medium=member_desktop"
-    description: "International Conference on AI in Cyber Security"
-  - date: "April 24, 2024"
-    link: "https://www.linkedin.com/posts/creatersarthakjain_ucsandiego-education-innovation-activity-7188963899843440640-TimS?utm_source=share&utm_medium=member_desktop"
-    description: "UC San Deigo International Event at Taj Palace, New Delhi"
-  - date: "April 16, 2024"
-    link: "https://www.linkedin.com/posts/creatersarthakjain_computervision-ai-mit-activity-7188588032936030208-8mME?utm_source=share&utm_medium=member_desktop"
-    description: "Webinar on Computer Vision by Massachusetts Institute of Technology"
-  - date: "March 7, 2024"
-    link: "https://www.linkedin.com/feed/update/urn:li:activity:7167929915160416257/"
-    description: "Webinar on Quantum Computing by IIT Madras"
-  - date: "February 6, 2024"
-    link: "https://www.linkedin.com/feed/update/urn:li:activity:7158450504539283457/"
-    description: "Webinar on Human-Robot Interaction by Stanford University"
-  - date: "April 6, 2023"
-    link: "https://www.linkedin.com/feed/update/urn:li:activity:7051565419035279361/"
-    description: "Webinar on Snow Leopard Conservation by WWF"  
 ---
 
-A flora and fauna lover, with deep research interest in Machine Learning domain of **Signal/Speech Processing**. I work broadly in the areas of Automatic Speech Recognition (ASR), Deepfake Detection, Large Language Models (LLMs), Natural Language Processing, Foundation Models and Machine Learning Operations (MLOps). I'm also fascinated in exploring the areas of Computer Vision, Embodied AI, Robotics & Multi Agent Systems.
+## Building AI systems that are useful, grounded, and deployable.
 
-Beyond technical stuff, I love hitting the gym, work actively with ISCA-SAC podcast team as a host, sound mixing & editing. Also, when I unwind, I'm drawn to Netflix webseries & films for entertainment.
+I am **Sarthak Jain**, an AI Engineer and researcher pursuing an M.Sc. in Computer Science and Mathematics at the **University of Geneva**. I design end-to-end AI products—from retrieval and agent orchestration to real-time interfaces, privacy controls, and deployment.
 
-I am **open to collaborating** with individuals/ groups/ labs who share similar
- research interests, with the aim of working on a novel project and subsequently publishing a paper in a core A/A* conference like Interspeech, ICASSP, NeurIPS, ACL, NAACl etc or a reputable journal.
+My current work sits at the intersection of **LLM applications, retrieval-augmented generation (RAG), AI agents, multimodal learning, speech, and trustworthy AI**. I have built with Python, FastAPI, WebSockets, Docker, AWS, Qdrant, FAISS, PyTorch, Hugging Face, Vue.js, and TypeScript, and I enjoy taking research ideas all the way to usable systems.
 
-I can be reached at **sarthakjainssjj@gmail.com** & for urgent matters, please use **shubh2002jain@gmail.com**.
+### What I work on
 
-{% if page.latest_posts %}
-<section>
-  <h2>Latest Posts/ News</h2>
-  <ul>
-    {% for post in page.latest_posts %}
-    <li>
-      <span>{{ post.date }}</span>
-      <a href="{{ post.link }}">{{ post.description }}</a>
-    </li>
-    {% endfor %}
-  </ul>
-</section>
-{% endif %}
+- **Agentic AI & LLM systems** — RAG, tool-using agents, MCP integrations, structured memory, evaluation, and prompt / workflow design.
+- **Retrieval & knowledge systems** — hybrid dense + BM25 search, embeddings, vector databases, multilingual conversation, and grounded responses.
+- **Multimodal AI** — speech, video, audio-visual learning, document intelligence, and foundation-model fine-tuning.
+- **ML engineering** — reproducible experiments, model benchmarking, FastAPI services, Dockerized stacks, privacy-aware architectures, and cloud deployment.
+
+### Selected impact
+
+- Built a privacy-by-design, multilingual **RAG assistant** for the City of Espoo during the Aalto Science Institute International Summer Research Programme—selected from 6,500+ applicants.
+- Developed and benchmarked multimodal pipelines for early ASD screening at **FriskaAi**, with a proposed fine-tuned model reaching **0.843 accuracy** and **0.891 F1**.
+- Created **SansadGPT** at EY: a RAG-powered assistant over parliamentary records that reduced manual PDF search time by **85%**.
+- Published research spanning speech, deepfake detection, multimodal learning, and trustworthy generative AI, including papers accepted at **ACL, ICASSP, Interspeech, and IEEE Networking Letters**.
+
+I am always interested in collaborating on ambitious AI products and research with real-world constraints. Reach me at [sarthakjainssjj@gmail.com](mailto:sarthakjainssjj@gmail.com).
